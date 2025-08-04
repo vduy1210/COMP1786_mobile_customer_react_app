@@ -67,7 +67,7 @@ function MainTabNavigator() {
       })}
     >
       {/* Tab screen definitions with their respective components */}
-      <Tab.Screen name="Classes" component={CourseListScreen} options={{ title: 'All Classes' }} />
+      <Tab.Screen name="Classes" component={CourseListScreen} options={{ title: 'All Courses' }} />
       <Tab.Screen name="Search" component={SearchScreen} />
       <Tab.Screen name="YourClasses" component={YourClassesScreen} options={{ title: 'Your Classes' }} />
     </Tab.Navigator>
